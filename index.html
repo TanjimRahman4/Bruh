@@ -82,6 +82,19 @@
     height: 200px;
     animation: slideLeft 6s ease-in-out infinite;
 }
+@keyframes jumpLoop {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-40px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+#siu {
+    height: 290px;
+    animation: jumpLoop 0.9s ease-in-out infinite;
+}
+
+
 
     </style>
 </head>
@@ -100,6 +113,7 @@
                     <li class="nav-item"><a class="nav-link nav-hover" href="#Stats">Stats</a></li>
                     <li class="nav-item"><a class="nav-link nav-hover" href="#Gallery">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link nav-hover" href="#Achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link nav-hover" href="#Sponsars">Sponsors</a></li>
                 </ul>
             </div>
         </div>
@@ -153,6 +167,7 @@
 
     <div class="stats-section text-center" id="Stats">
         <div class="container">
+            <img src="siu.png" id="siu">
             <h2 id="h1">Career Stats</h2>
             <div class="row mt-4">
                 <div class="col-md-4">
@@ -195,6 +210,23 @@
             <li class="list-group-item" id="h1">Multiple League Titles in England, Spain, and Italy</li>
             <li class="list-group-item" id="h1">European Championship Winner with Portugal</li>
         </ul>
+    </div>
+    <div class="container my-5" id="Sponsars">
+        <h2 class="text-center" id="h1">Sponsors</h2>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <img src="sponsor1.png" alt="Sponsor 1" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="sponsor2.png" alt="Sponsor 2" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="sponsor3.png" alt="Sponsor 3" class="img-fluid">
+            </div>
+            <div class="col-md-3">
+                <img src="sponsor4.png" alt="Sponsor 4" class="img-fluid">
+            </div>
+        </div>
     </div>
 </body>
 
