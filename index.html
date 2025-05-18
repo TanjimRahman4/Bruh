@@ -232,18 +232,18 @@
     </div>
     <div class="container my-5" id="Contact">
         <h2 class="text-center" id="h1">Contact</h2>
-        <form class="mt-4">
+        <form class="mt-4" action="mailto:mdtanjim2013@gmail.com" method="POST" enctype="text/plain">
             <div class="mb-3">
-                <label for="name" class="form-label" id="p1">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            <label for="name" class="form-label" id="p1">Name</label>
+            <input type="text" class="form-control" id="name" name="Name" placeholder="Enter your name">
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label" id="p1">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <label for="email" class="form-label" id="p1">Email</label>
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Enter your email">
             </div>
             <div class="mb-3">
-                <label for="message" class="form-label" id="p1">Message</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            <label for="message" class="form-label" id="p1">Message</label>
+            <textarea class="form-control" id="message" name="Message" rows="4" placeholder="Enter your message"></textarea>
             </div>
             <button type="submit" class="btn btn-warning" style="transition: transform 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">Send Message</button>
         </form>
